@@ -30,8 +30,8 @@ This project is a web scraper for extracting product details from the H&M Canada
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/hm-web-scraper.git
-    cd hm-web-scraper
+    git clone https://github.com/your-username/hnm-web-scraper.git
+    cd hnm-web-scraper
     ```
 
 2. **Install the required Python packages:**
@@ -80,6 +80,12 @@ This project is a web scraper for extracting product details from the H&M Canada
 - This is a basic implementation with a 0.5s sleep after each product loads to correctly load all details and ensure no data is missed.
 - For each category, the scraper will run for a total of approximately 3 minutes and at the end, it will provide CSV files exported from the SQLite database for a quick glance at the extracted data.
 
+## Future Prospects
+There are a lot of things we can improve in this project:
+- **Automation:** Automate the scraper to run every week. Due to time constraints, this feature is not implemented yet.
+- **Headless Mode:** Make the scraper faster by using a headless approach.
+- **Database Schema:** Implement a proper database schema, possibly following a star or snowflake schema, to handle the large amount of data being extracted.
+
 
 ## Project Structure
 
@@ -95,3 +101,6 @@ hm-web-scraper/
 ├── product_details.db  # SQLite database file (generated after running the scraper)
 ├── men_product_details.csv  # CSV file for men (generated after running the export script)
 └── women_product_details.csv  # CSV file for women (generated after running the export script)
+
+
+
