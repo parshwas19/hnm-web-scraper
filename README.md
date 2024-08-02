@@ -19,6 +19,32 @@ This project is a web scraper for extracting product details from the H&M Canada
 - Supports different categories for men and women.
 - Automatically exports data to CSV files.
 
+### Supported Categories and Types
+
+#### Gender
+- Male
+- Female
+
+#### Types
+- New Arrival
+- Sale
+
+#### Categories
+
+For New Arrival:
+- Clothes
+- Accessories
+- Shoes
+- Activewear
+
+For Sale:
+- Tshirts and Tanks
+- Pants
+- Jeans
+- Hoodies and Sweatshirts
+- Shorts
+- Shoes
+
 ## Requirements
 
 - Python 3.7+
